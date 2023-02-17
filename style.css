@@ -1,0 +1,47 @@
+* {
+   margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+}
+
+#locationName{
+    font-size: 30px;
+}
+
+
+#description{
+    font-size: 25px;
+
+}
+
+#temp{
+    font-size: 35px;
+}
+
+.container{
+    border: 1px solid lightcoral;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:rgb(255,255,255,0.633);
+    color:black;
+    position: absolute;
+    bottom:100px;
+    left: 50px;
+    z-index: 1000;
+}
+
+#map { 
+    height: 100vh; 
+    position: relative;
+}
+
+#icon{
+    height: 50px;
+    width:50px;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin: auto;
+    display: flex;
+}
